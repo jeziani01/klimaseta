@@ -1,0 +1,48 @@
+body {
+  background-color: #dedede;
+  font-size: 16px;
+}
+
+.container {
+  background-color: #cdcdcd;
+  box-shadow: 4px 4px 4px 1px gray;
+}
+.sziv{
+  width: 80px;
+}
+
+h1,
+h2,
+dt {
+  text-align: center;
+}
+
+#terkep {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.map-point {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  color: brown;
+  font-weight: bolder;
+}
+
+::marker {
+  color: brown;
+}
+
+.map-point:hover {
+  color: green;
+}
+
+ol {
+  font-weight: bolder;
+}
